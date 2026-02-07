@@ -1,16 +1,23 @@
-# React + Vite
+# Reportes Sprint 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un **esqueleto funcional** de una app React que permite visualizar y agregar reportes.
 
-Currently, two official plugins are available:
+## Funcionalidad
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Lista de reportes iniciales.
+- Formulario interactivo para agregar nuevos reportes en tiempo real.
+- Cada reporte tiene un título y una descripción.
+- No se ha trabajado en estética, solo en funcionamiento.
 
-## React Compiler
+## Cómo usarlo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clonar el repositorio:
 
-## Expanding the ESLint configuration
+```bash
+git clone https://github.com/TU_USUARIO/reportes-sprint1.git
+cd reportes-sprint1
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Abrir en el navegador la dirección que aparece (por ejemplo http://localhost:5173/) y agregar reportes usando el formulario.
